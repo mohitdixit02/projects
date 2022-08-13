@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.navbar img {
+    height: 35px;
+    width: 35px;
+    vertical-align: baseline;
+}
+
+#login {
+    vertical-align: middle;
+    margin-top: 3px;
+}
+
+#name {
+    font-weight: 1000;
+    font-size: 30px;
+    vertical-align: middle;
+    margin-right: 4vw;
+    margin-left: 15px;
+    color: rgb(255, 157, 0);
+}
+
+#search_bar {
+    height: 25px;
+    margin-left: 60vw;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+#search_bttn {
+    background-color: transparent;
+    vertical-align: middle;
+    margin-left: 0.5vw;
+    color: rgb(255, 157, 0);
+    font-weight: 800;
+    border: 1px rgb(255, 157, 0) solid;
+    padding: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 14px;
+    height: 29px;
+    justify-self: right;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 40px;
+    font-size: larger;
+}
+
+strong {
+    color: rgb(255, 157, 0);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 30px;
+    color: aliceblue;
+    font-size: larger;
+    column-gap: 70vw;
+}
+
+h2 {
+    margin: 5px;
+    font-size: xx-large;
+}
+
+.trending {
+    display: flex;
+    margin: 1.5vw;
+    justify-content: center;
+    column-gap: 3.7vw;
+    font-weight: bolder;
+    text-align: center;
+    font-size: x-large;
+}
+
+.trending img {
+    height: 20vw;
+    width: 16vw;
+    border: 4px black solid;
+}
+
+#form {
+    font-size: 25px;
+    text-align: center;
+    border: 2px black solid;
+    margin: 20px 25vw 20px 25vw;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.form_box {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+.form_heading{
+    text-align: left;
+}
+.form_input{
+        text-align: left;
+}
+
+table{
+    text-align: center;
+    font-size: x-large;
+    width: 95%;
+    margin: 0px 30px 0px 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+th,td{
+    text-align: center;
+    padding: 5px
+}
+.heading{
+    background-color: cadetblue;
+}
+tr:nth-child(even){
+    background-color: cadetblue;
+}
+
+.anm{
+    transition-property: color;
+    transition-duration: 0.01s;
+}
+
+.anm:hover{
+    color:rgb(252, 26, 26);
+}
