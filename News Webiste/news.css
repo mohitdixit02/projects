@@ -1,0 +1,19 @@
+.navbar-brand{
+    font-weight: 900;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.news{
+    padding-left: 60px;
+}
+.footer{
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 65vw;
+    padding: 20px;
+    font-size: 1.4vw;
+}
