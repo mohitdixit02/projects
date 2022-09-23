@@ -55,6 +55,12 @@
     .right {
         font-size: 21px;
     }
+    #memory{
+        font-size: 12px;
+    }
+    .litime{
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 678px) {
