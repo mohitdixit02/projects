@@ -49,7 +49,7 @@ for (element of fbutton) {
                 let output = evaluate();
                 creatememory(textarea.value, output);
                 if (output == undefined) {
-                    alert('Enter some operation')
+                    alert('Check operation or missing bracket')
                     textbox.value = '';
                 }
                 else if(isNaN(output)){
