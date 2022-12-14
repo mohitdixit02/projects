@@ -1,0 +1,81 @@
+.leftpannel{
+    background-color: rgba(0,0,0,255);
+    color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 16%;
+    height:88.3vh;
+}
+.Link{
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+}
+.leftdx{
+    margin: 20px;
+    font-size: 14px;
+}
+.left1{
+    display: flex;
+    column-gap: 16px;
+}
+.left1 ul li span{
+    font-style: normal;
+    font-size: 15px;
+    padding-left: 14px;
+    bottom: 3px;
+    position: relative;
+}
+.left1 ul li i{
+    font-size: 24px;
+}
+.left1 ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.left1 ul li:hover{
+    color: ghostwhite;
+}
+#dot{
+    background-color: transparent;
+    color: lightgray;
+    top: 0;
+    margin-left: 20px;
+    font-size: xx-large;
+}
+
+.hr{
+    border-color: gray;
+}
+
+.left2{
+    margin-top: 30px;
+    font-size: 16px;
+    display: flex;
+    column-gap: 16px;
+    color: lightgray;
+}
+.left2a li{
+    font-size: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.left2b li{
+    font-size: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.bi-plus{
+    background-color: rgb(177, 177, 177);
+    color: black;
+    border-radius: 2px;
+}
+.bi-heart-fill{
+    background-image: linear-gradient(120deg,rgb(0, 0, 179),white);
+    font-size: 13px;
+    border-radius: 2px;
+    padding: 6px;
+}
+.active{
+    text-decoration: none;
+    color: ghostwhite;
+}

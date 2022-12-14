@@ -1,0 +1,69 @@
+/* Nav Bar */
+.nav{
+    color: lightgray;
+    display: flex;
+    column-gap: 40vw;
+    width: 81vw;
+    height: 7%;
+    padding: 15px 5px 0px 45px;
+}
+.left_nav{
+    display: flex;
+    column-gap: 2vw;
+}
+.bttn_nav{
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 4px;
+}
+.bttn_nav input{
+    font-size: x-large;
+    border-radius: 400px;
+    padding: 0px 10px 0px 10px;
+    margin: 5px 0px 5px 0px;
+    border: 0px;
+    background-color:rgb(27,27,27);
+    color: white;
+    cursor: pointer;
+}
+.bttn_nav input:hover{
+    color: black;
+    background-color: lightgray;
+}
+.user{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    column-gap: 7px;
+    padding: 0.7vh 6px 0px 7px;
+    border-radius:15px ;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+.bi-person-circle{
+    font-size: 2.6vh;
+}
+
+/* Serach Bar Area */
+.search_bar{
+    width: 400px;
+}
+.search_bar input{
+    background-image: url('https://endlessicons.com/wp-content/uploads/2012/12/search-icon-614x460.png');
+    background-size: 16%;
+    font-size: 14px;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding-left: 55px;
+    width: 350px;
+    height: 38px;
+}
+.search_bar input:focus{
+    outline: none;
+    border: 1px solid black;
+}
+.blank{
+    width: 400px;
+}
