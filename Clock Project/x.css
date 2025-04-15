@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+}
+.nav{
+    display: flex;
+    padding: 10px;
+    font-size: 1.3vw;
+    color: aliceblue;
+    justify-content: center;
+    column-gap: 52vw;
+    background-image: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#nav_main{
+    font-size: xx-large;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.nav_right_side{
+    display: flex;
+    padding: 4px;
+    column-gap: 4vw;
+}
+.hovering{
+    padding: 6px;
+    border-radius: 5px;
+    transition-property: background-color font-size;
+    transition-duration: 0.4s;
+}
+.hovering:hover{
+    background-color:dodgerblue;
+    font-size: x-large;
+}
+.search_bar{
+    display: flex;
+    column-gap: 6px;
+    padding: 4px;
+}
+#search{
+    height: 24px;
+    width:12vw;
+    border: 1px solid dodgerblue;
+    border-radius: 30px;
+}
+.blue_bttn{
+    height: 30px;
+    color: dodgerblue;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    background-color: transparent;
+    transition-property: color background-color;
+    transition-duration: 0.2s;
+}
+.blue_bttn:hover{
+    color: white;
+    background-color: dodgerblue;
+}
+.red_bttn{
+    height: 30px;
+    color: crimson;
+    border: 3px solid crimson;
+    border-radius: 10px;
+    background-color: transparent;
+    transition-property: color background-color;
+    transition-duration: 0.2s;
+    margin-left: 10px;
+}
+.red_bttn:hover{
+    color: white;
+    background-color: crimson;
+}
+h1{
+    text-align:center
+}
+#clock{
+    text-align: center;
+    font-size: 45px;
+    font-style: oblique;
+}
+form{
+    text-align: left;
+    margin-left: 30vw;
+    font-size: larger;
+}
+.success{
+    color: darkgreen;
+    background-color: lightgreen;
+    padding: 7px;
+}
